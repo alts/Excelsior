@@ -31,6 +31,10 @@ class ExcelsiorData extends ExcelsiorTag
 			else if (is_string($this->data))
 			{
 				$type = 'String';
+
+				// Ugly namespace juggling. Better way?
+				$this->attrs['xmlns'] = 'http://www.w3.org/TR/REC-html40';
+				$this->name = 'ss:Data';
 			}
 		}
 

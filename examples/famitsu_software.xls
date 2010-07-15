@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Famitsu Software Top 5">
+<Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="6" x:FullColumns="1" x:FullRows="1">
+<Row>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String"><B>Rank</B></ss:Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String"><B>Console</B></ss:Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String"><B>Title</B></ss:Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String"><B>Publisher</B></ss:Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String"><B>Last Week Sales</B></ss:Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String"><B>LTD Sales</B></ss:Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String"><B>Days Since Release</B></ss:Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String"><B>Avg. Sales per Day</B></ss:Data></Cell></Row>
+<Row>
+<Cell>
+<Data ss:Type="Number">1</Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">PS3</ss:Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">Yakuza 4: Heir to the Legend</ss:Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">Sega</ss:Data></Cell>
+<Cell>
+<Data ss:Type="Number">395123</Data></Cell>
+<Cell>
+<Data ss:Type="Number">395123</Data></Cell>
+<Cell>
+<Data ss:Type="Number">4</Data></Cell>
+<Cell ss:Formula="=R2C6 / R2C7"></Cell></Row>
+<Row>
+<Cell>
+<Data ss:Type="Number">2</Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">PSP</ss:Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">Gundam Assault Survive</ss:Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">Namco Bandai Games</ss:Data></Cell>
+<Cell>
+<Data ss:Type="Number">96009</Data></Cell>
+<Cell>
+<Data ss:Type="Number">96009</Data></Cell>
+<Cell>
+<Data ss:Type="Number">4</Data></Cell>
+<Cell ss:Formula="=R3C6 / R3C7"></Cell></Row>
+<Row>
+<Cell>
+<Data ss:Type="Number">3</Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">DS</ss:Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">Pokémon Ranger: Path of Light</ss:Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">Pokémon</ss:Data></Cell>
+<Cell>
+<Data ss:Type="Number">48684</Data></Cell>
+<Cell>
+<Data ss:Type="Number">283223</Data></Cell>
+<Cell>
+<Data ss:Type="Number">16</Data></Cell>
+<Cell ss:Formula="=R4C6 / R4C7"></Cell></Row>
+<Row>
+<Cell>
+<Data ss:Type="Number">4</Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">DS</ss:Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">Tomodachi Collection</ss:Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">Nintendo</ss:Data></Cell>
+<Cell>
+<Data ss:Type="Number">37391</Data></Cell>
+<Cell>
+<Data ss:Type="Number">3044511</Data></Cell>
+<Cell>
+<Data ss:Type="Number">277</Data></Cell>
+<Cell ss:Formula="=R5C6 / R5C7"></Cell></Row>
+<Row>
+<Cell>
+<Data ss:Type="Number">5</Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">Wii</ss:Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">New Super Mario Bros. Wii</ss:Data></Cell>
+<Cell>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">Nintendo</ss:Data></Cell>
+<Cell>
+<Data ss:Type="Number">37252</Data></Cell>
+<Cell>
+<Data ss:Type="Number">3535916</Data></Cell>
+<Cell>
+<Data ss:Type="Number">109</Data></Cell>
+<Cell ss:Formula="=R6C6 / R6C7"></Cell></Row></Table></Worksheet></Workbook>

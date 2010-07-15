@@ -34,7 +34,7 @@ class ExcelsiorTag
 			"\n<%s%s>%s</%s>",
 			$this->name,
 			$this->write_attributes(),
-			implode("\n", $this->children),
+			implode("", $this->children),
 			$this->name
 		);
 	}
