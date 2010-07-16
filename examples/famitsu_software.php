@@ -16,23 +16,23 @@ echo $x->Workbook(
 			$x->Cell($x->Data('<B>Avg. Sales per Day</B>'))
 		),
 		$x->Row(
-			$x->Cell($x->Data(1)),
-			$x->Cell($x->Data('PS3')),
-			$x->Cell($x->Data('Yakuza 4: Heir to the Legend')),
-			$x->Cell($x->Data('Sega')),
-			$x->Cell($x->Data(395123)),
-			$x->Cell($x->Data(395123)),
-			$x->Cell($x->Data(4)),
+			$x->Cell(1),
+			$x->Cell('PS3'),
+			$x->Cell('Yakuza 4: Heir to the Legend'),
+			$x->Cell('Sega'),
+			$x->Cell(395123),
+			$x->Cell(395123),
+			$x->Cell(4),
 			$x->Cell(array('Formula' => '=R{$r}C{$c-2} / R{$r}C{$c-1}'))
 		),
 		$x->Row(
-			$x->Cell($x->Data(2)),
-			$x->Cell($x->Data('PSP')),
-			$x->Cell($x->Data('Gundam Assault Survive')),
-			$x->Cell($x->Data('Namco Bandai Games')),
-			$x->Cell($x->Data(96009)),
-			$x->Cell($x->Data(96009)),
-			$x->Cell($x->Data(4)),
+			$x->Cell(2),
+			$x->Cell('PSP'),
+			$x->Cell('Gundam Assault Survive'),
+			$x->Cell('Namco Bandai Games'),
+			$x->Cell(96009),
+			$x->Cell(96009),
+			$x->Cell(4),
 			$x->Cell(array('Formula' => '=R{$r}C{$c-2} / R{$r}C{$c-1}'))
 		),
 		$x->Row(
