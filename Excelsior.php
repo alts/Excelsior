@@ -20,9 +20,11 @@
 require 'libs/ExcelsiorCounter.php';
 require 'libs/ExcelsiorTag.php';
 require 'libs/ExcelsiorCell.php';
+require 'libs/ExcelsiorComment.php';
 require 'libs/ExcelsiorData.php';
 require 'libs/ExcelsiorRow.php';
 require 'libs/ExcelsiorTable.php';
+require 'libs/ExcelsiorTagCollection.php';
 require 'libs/ExcelsiorWorkbook.php';
 
 class Excelsior
@@ -58,6 +60,13 @@ class Excelsior
 		$args = func_get_args();
 		list($attrs, $children) = $this->split_arguments($args);
 		return new ExcelsiorCell($attrs, $children);
+	}
+
+	public function Comment()
+	{
+		$args = func_get_args();
+		list($attrs, $children) = $this->split_arguments($args);
+		return new ExcelsiorComment($attrs, $children);
 	}
 
 	public function Data($data)

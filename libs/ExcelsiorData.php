@@ -15,6 +15,11 @@ class ExcelsiorData extends ExcelsiorTag
 		$this->attrs['Type'] = $this->data_type();
 		$this->children = array($this->data);
 
+		if ($this->parent instanceof ExcelsiorComment)
+		{
+			unset($this->attrs['Type']);
+		}
+
 		return parent::__toString();
 	}
 

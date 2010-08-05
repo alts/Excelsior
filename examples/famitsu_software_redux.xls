@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
 <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
 <Worksheet ss:Name="Famitsu Software Top 5">
-<Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="6" x:FullColumns="1" x:FullRows="1">
+<Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="7" x:FullColumns="1" x:FullRows="1">
+<Row>
+<Cell>
+<Comment>
+<ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B>Hello</B></ss:Data></Comment></Cell></Row>
 <Row>
 <Cell>
 <ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String"><B>Rank</B></ss:Data></Cell>
@@ -21,7 +25,7 @@
 <ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String"><B>Avg. Sales per Day</B></ss:Data></Cell></Row>
 <Row>
 <Cell>
-<Data ss:Type="Number">0</Data></Cell>
+<Data ss:Type="Number">1</Data></Cell>
 <Cell>
 <ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">PS3</ss:Data></Cell>
 <Cell>
@@ -34,10 +38,10 @@
 <Data ss:Type="Number">395123</Data></Cell>
 <Cell>
 <Data ss:Type="Number">4</Data></Cell>
-<Cell ss:Formula="=R2C6 / R2C7"></Cell></Row>
+<Cell ss:Formula="=R3C6 / R3C7"></Cell></Row>
 <Row>
 <Cell>
-<Data ss:Type="Number">1</Data></Cell>
+<Data ss:Type="Number">2</Data></Cell>
 <Cell>
 <ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">PSP</ss:Data></Cell>
 <Cell>
@@ -50,10 +54,10 @@
 <Data ss:Type="Number">96009</Data></Cell>
 <Cell>
 <Data ss:Type="Number">4</Data></Cell>
-<Cell ss:Formula="=R3C6 / R3C7"></Cell></Row>
+<Cell ss:Formula="=R4C6 / R4C7"></Cell></Row>
 <Row>
 <Cell>
-<Data ss:Type="Number">2</Data></Cell>
+<Data ss:Type="Number">3</Data></Cell>
 <Cell>
 <ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">DS</ss:Data></Cell>
 <Cell>
@@ -66,10 +70,10 @@
 <Data ss:Type="Number">283223</Data></Cell>
 <Cell>
 <Data ss:Type="Number">16</Data></Cell>
-<Cell ss:Formula="=R4C6 / R4C7"></Cell></Row>
+<Cell ss:Formula="=R5C6 / R5C7"></Cell></Row>
 <Row>
 <Cell>
-<Data ss:Type="Number">3</Data></Cell>
+<Data ss:Type="Number">4</Data></Cell>
 <Cell>
 <ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">DS</ss:Data></Cell>
 <Cell>
@@ -82,10 +86,10 @@
 <Data ss:Type="Number">3044511</Data></Cell>
 <Cell>
 <Data ss:Type="Number">277</Data></Cell>
-<Cell ss:Formula="=R5C6 / R5C7"></Cell></Row>
+<Cell ss:Formula="=R6C6 / R6C7"></Cell></Row>
 <Row>
 <Cell>
-<Data ss:Type="Number">4</Data></Cell>
+<Data ss:Type="Number">5</Data></Cell>
 <Cell>
 <ss:Data xmlns="http://www.w3.org/TR/REC-html40" ss:Type="String">Wii</ss:Data></Cell>
 <Cell>
@@ -98,4 +102,4 @@
 <Data ss:Type="Number">3535916</Data></Cell>
 <Cell>
 <Data ss:Type="Number">109</Data></Cell>
-<Cell ss:Formula="=R6C6 / R6C7"></Cell></Row></Table></Worksheet></Workbook>
+<Cell ss:Formula="=R7C6 / R7C7"></Cell></Row></Table></Worksheet></Workbook>

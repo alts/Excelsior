@@ -13,11 +13,11 @@ class ExcelsiorTable extends ExcelsiorTag
 		{
 			if ($max_row_length < $row->child_count())
 			{
-				$this->attrs['ExpandedColumnCount'] = $row->child_count();
+				$max_row_length = $this->attrs['ExpandedColumnCount'] = $row->child_count();
 			}
 		}
 
-		$this->attrs['ExpandedRowCount'] = count($this->children);
+		$this->attrs['ExpandedRowCount'] = $this->child_count();
 		$this->attrs['FullRows'] = $this->attrs['FullColumns'] = 1;
 
 		$this->message['row_number'] = new ExcelsiorCounter();

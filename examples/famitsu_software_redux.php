@@ -52,14 +52,17 @@ $workbook = $x->Workbook(
 		array('Name' => 'Famitsu Software Top 5'),
 		$table = $x->Table(
 			$x->Row(
-				$x->Cell($x->Data('<B>Rank</B>')),
-				$x->Cell($x->Data('<B>Console</B>')),
-				$x->Cell($x->Data('<B>Title</B>')),
-				$x->Cell($x->Data('<B>Publisher</B>')),
-				$x->Cell($x->Data('<B>Last Week Sales</B>')),
-				$x->Cell($x->Data('<B>LTD Sales</B>')),
-				$x->Cell($x->Data('<B>Days Since Release</B>')),
-				$x->Cell($x->Data('<B>Avg. Sales per Day</B>'))
+				$x->Cell($x->Comment('<B>Hello</B>'))
+			),
+			$x->Row(
+				$x->Cell('<B>Rank</B>'),
+				$x->Cell('<B>Console</B>'),
+				$x->Cell('<B>Title</B>'),
+				$x->Cell('<B>Publisher</B>'),
+				$x->Cell('<B>Last Week Sales</B>'),
+				$x->Cell('<B>LTD Sales</B>'),
+				$x->Cell('<B>Days Since Release</B>'),
+				$x->Cell('<B>Avg. Sales per Day</B>')
 			)
 		)
 	)
@@ -69,7 +72,7 @@ $children = array();
 foreach ($data as $index => $rowlike)
 {
 	$children[] = $x->Row(
-		$x->Cell($index),
+		$x->Cell($index + 1),
 		$x->Cell($rowlike->console),
 		$x->Cell($rowlike->title),
 		$x->Cell($rowlike->publisher),

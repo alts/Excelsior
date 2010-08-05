@@ -5,8 +5,10 @@ class ExcelsiorTag
 {
 	protected $attrs = array();
 	protected $children = array();
-	protected $name = null;
 	protected $message = array();
+	protected $name = null;
+	protected $parent = null;
+
 
 	public function __construct($name, $attrs, $children)
 	{
@@ -17,7 +19,20 @@ class ExcelsiorTag
 
 	public function child_count()
 	{
-		return count($this->children);
+		$base = 0;
+		foreach ($this->children as $child)
+		{
+			if ($child instanceof ExcelsiorTagCollection)
+			{
+				$base += $child->child_count();
+			}
+			else
+			{
+				$base += 1;
+			}
+		}
+
+		return $base;
 	}
 
 	public function __toString()
@@ -26,7 +41,7 @@ class ExcelsiorTag
 		{
 			if ($child instanceof ExcelsiorTag)
 			{
-				$child->react($this->message);
+				$child->react($this, $this->message);
 			}
 		}
 
@@ -62,8 +77,9 @@ class ExcelsiorTag
 		return $result;
 	}
 
-	protected function react($message)
+	protected function react($parent, $message)
 	{
+		$this->parent = $parent;
 		$this->message = $message;
 	}
 }
