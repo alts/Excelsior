@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
 <Worksheet ss:Name="Famitsu Software Top 5">
-<Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="7" x:FullColumns="1" x:FullRows="1">
+<Table>
 <Row>
 <Cell>
 <Comment>
